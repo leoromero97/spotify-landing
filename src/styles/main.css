@@ -1,0 +1,22 @@
+@import './normalizer.css';
+
+.App {
+  margin: 0 auto;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+:root {
+  --black: #000000;
+  --black-text: #191414;
+  --gray: #616467;
+  --gray-footer: #919396;
+  --green: #1ed760;
+  --orange: #ff4632;
+  --violet: #cb1582;
+  --white: #ffffff;
+  --blue: #2d46b9;
+  --sky-blue: #9BF0E1;
+  --sky-blue-hover: #C7F7EE;
+}

@@ -1,0 +1,178 @@
+.nav {
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5.4rem;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.containerLogo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.logo, .logo2 {
+  height: 100%;
+  max-height: 3.8rem;
+}
+
+.containerBurger {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.img-user {
+  border-radius: 50%;
+  background-color: var(--gray);
+  height: 3rem;
+  margin-right: 1.4rem;
+}
+
+.burger {
+  height: 50%;
+  width: 3.1rem;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 2.2rem;
+  height: 0.3rem;
+  background-color: var(--white);
+  margin: 4px;
+  transition: all 0.5s ease;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: var(--black);
+  height: 100%;
+  width: 100%;
+  padding: 3.8rem;
+  position: fixed;
+  animation: slideIn 2s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0.5;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(46%);
+  }
+}
+
+.link {
+  color: var(--white);
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.link:hover {
+  color: var(--green);
+}
+
+.close {
+  align-self: flex-end;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.break {
+  background-color: var(--white);
+  height: 0.2rem;
+  margin: 1.8rem 0 4rem;
+  width: 2rem;
+}
+
+.links-user {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+.link-user {
+  color: var(--white);
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.containerLogoSlide {
+  display: flex;
+  align-items: flex-end;
+  height: 40%;
+}
+
+@media screen and (min-width: 990px) {
+  .nav {
+    height: 8rem;
+  }
+
+  .burger,
+  .logo2,
+  .close,
+  .link-user {
+    display: none;
+  }
+
+  .links {
+    height: 30%;
+    width: 50%;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5.4rem;
+    animation: navDesktop 2s forwards;
+  }
+
+  @keyframes navDesktop {
+    0% {
+      opacity: 0.5;
+      transform: translateY(10%);
+
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(-10%);
+      right: 10rem;
+    }
+  }
+
+  .link {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  .link:hover {
+    font-weight: bolder;
+    transition: 0.3s ease-in-out;
+  }
+
+  .break {
+    height: 1.6rem;
+    margin-top: 0.4rem;
+    width: 0.1rem;
+  }
+}

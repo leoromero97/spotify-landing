@@ -1,0 +1,117 @@
+.hero {
+  background-color: var(--sky-blue);
+  min-height: 85.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+
+.container-text {
+  color: var(--blue);
+  height: auto;
+  width: 100%;
+  text-align: left;
+  padding-right: 56px;
+  max-height: 60rem;
+  margin-right: 1.6rem;
+  margin-bottom: 2.5rem;
+  padding: 3rem 0 0 2rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  width: auto;
+  line-height: 1.2;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 1.5rem 0 0.8rem;
+  width: 100%;
+}
+
+.hero-button-primary {
+  transform: translate3d(0,0,0);
+  padding: 17px 38px;
+  position: relative;
+  background-color: var(--blue);
+  text-transform: uppercase;
+  transition-duration: 33ms;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  border: 0;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--white);
+  height: 4.7rem;
+  width: 33rem;
+  margin-bottom: 0.8rem;
+}
+
+.hero-button:hover {
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: 700;
+}
+
+.hero-button-tertiary {
+  transform: translate3d(0,0,0);
+  padding: 17px 38px;
+  position: relative;
+  background-color: var(--sky-blue);
+  text-transform: uppercase;
+  transition-duration: 33ms;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  border: 0;
+  border-radius: 500px;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--blue);
+  height: 4.7rem;
+  width: 33rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-button:hover {
+  background-color: var(--sky-blue-hover);
+  color: var(--black);
+  font-weight: 700;
+}
+
+.hero-text-two {
+  font-size: 1.2rem;
+  line-height: 16px;
+  max-width: 630px;
+}
+
+.hero-terms {
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+}
+
+.hero-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.disco {
+  border-radius: 50%;
+  min-height: 32rem;
+  max-width: 32rem;
+}
