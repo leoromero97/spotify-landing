@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Spotify Landing React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto esta creado con React Js, es un clone de la landing page de spotify
 
 ## Available Scripts
 
@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Web clone
+https://www.spotify.com/ar/premium/?utm_source=ar-es_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_latam_ar_premiumbusiness_core_brand+contextual-desktop+text+exact+ar-es+google&gclid=CjwKCAjwwqaGBhBKEiwAMk-FtGXL5qZSxGE_84ui1HabraeGkW74kVEUhjG7RoSjxD92fpyKr9ZZWRoCBe0QAvD_BwE&gclsrc=aw.ds

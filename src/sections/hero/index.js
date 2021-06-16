@@ -1,5 +1,5 @@
 import React from "react";
-import disco from "../../assets/disco.png";
+import disco from "../../assets/spotifyHero.png";
 
 import "./hero.css";
 
