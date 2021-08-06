@@ -115,3 +115,19 @@
   min-height: 32rem;
   max-width: 32rem;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    min-height: 65.7rem;
+    padding: 1rem 0;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .hero-text {
+    margin: 1.5rem 0 2rem;
+  }
+}

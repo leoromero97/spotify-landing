@@ -4,7 +4,7 @@ import icCheck from "../../../assets/check.png";
 function Card1() {
   return (
     <div className="card">
-      <span className="timeFree">
+      <span className="time-free">
         3 meses gratis al suscribirte
       </span>
       <p className="options">Opciones de prepago disponibles</p>

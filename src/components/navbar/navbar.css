@@ -62,6 +62,7 @@
   padding: 3.8rem;
   position: fixed;
   animation: slideIn 2s forwards;
+  z-index: 2;
 }
 
 @keyframes slideIn {
@@ -127,7 +128,6 @@
   }
 
   .burger,
-  .logo2,
   .close,
   .link-user {
     display: none;

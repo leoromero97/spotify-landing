@@ -9,6 +9,7 @@ function Benefits() {
       <h1 className="benefits-title">
         Beneficios de Premium
       </h1>
+      <div className="container-benefits" >
       {ITEMS_BENEFITS.map(({...item}) => (
         <div key={item.id} className="content-benefit"> 
           <div className="benefits-container-img">
@@ -20,6 +21,7 @@ function Benefits() {
           </div>
         </div>
       ))}
+      </div>
     </div>
   );
 }

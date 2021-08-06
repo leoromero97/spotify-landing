@@ -17,6 +17,10 @@
   margin-bottom: 4rem;
 }
 
+.container-benefits {
+  width: 100%;
+}
+
 .content-benefit {
   display: flex;
   align-items: center;
@@ -52,3 +56,26 @@
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .benefits {
+    justify-content: space-around;
+  }
+
+  .container-benefits {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    margin-right: 3rem;
+    padding: 1rem 3rem;
+  }
+
+  .benefits-container-img {
+    margin-bottom: 2rem;
+  }
+}
